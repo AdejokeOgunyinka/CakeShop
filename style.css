@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#bakery-name{
+    font-family: 'Henny Penny';
+    font-size: 50px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#carouselExampleSlidesOnly{
+    margin-bottom: 3%;
+}
+
+#customer-heading, #cake-heading, #recipe-heading, #order-heading{
+    font-family: 'Aclonica';
+}
+
+#customer-card{
+    border-radius: 50px;
+    width: 70%;
+    margin-bottom: 3%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF8DC;
+    box-sizing: border-box;
+}
+#app, #app2, #app3, #app4{
+    font-family: 'Gayathri';
+    font-size: 20px;
+}
+
+#cake-card{
+    border: 1px double #8A2BE2;
+    border-radius: 100px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    padding-top: 2%;
+}
+
+#recipe-card{
+    width: 70%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3%;
+    flex-basis: 10%;
+    box-sizing: border-box;
+    align-content: stretch;
+    margin-bottom: 3%;
+    background-color: #FFF8DC;
+    padding-top: 2%;
+}
+
+#order-card{
+    border: 1px double #8A2BE2;
+    width: 70%;
+    border-radius: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-top: 2%;
+}
+
+@media(max-width:540px){
+    #cake-card, #customer-card, #recipe-card, #order-card{
+        width: 93%;
+    }
+}

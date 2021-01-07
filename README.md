@@ -1,0 +1,1 @@
+This is the Frontend side of the CakeShop API github repository. It contains the Javascript integration with the Django API using the Fetch API of Javascript.
